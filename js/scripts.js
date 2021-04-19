@@ -9,10 +9,10 @@ $(document).click(function(){
                   $("#carousel-button").children("span").removeClass('fa-play');
                   $("#carousel-button").children("span").addClass('fa-pause');                    
               }
-              $('#loginButton').click(function() {
-      $('#loginModal').modal('show');
-    });
-    $('#reserveButton').click(function() {
-      $('#reservationModal').modal('show');
-    });
+  $('#loginButton').click(function() {
+  $('#loginModal').modal('show');
+  });
+  $('#reserveButton').click(function() {
+  $('#reservationModal').modal('show');
+  });
   });
